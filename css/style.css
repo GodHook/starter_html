@@ -82,70 +82,132 @@ body {
 }
 
 /* Other styles... */
-
-
-
-
-
-
-
-
-
-
-/*recipes */
-
-
-/* Recipe container styles */
-.recipe {
-    background-color: #fff;
-    margin: 10px;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+/* Navigation bar styles for Recipes and Travel */
+header {
+    background-color: #FF0000;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 2px solid #fff;
 }
 
-/* Recipe image styles */
-.recipe-image img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
-
-/* Recipe details styles */
-.recipe-details h2 {
-    font-size: 24px;
+h1 {
+    font-size: 2.5em;
+    font-family: 'Your Font Here', sans-serif;
     margin: 10px 0;
 }
 
-.recipe-details span {
-    display: block;
-    color: #888;
-    font-size: 14px;
-    margin-bottom: 5px;
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
 
-.recipe-details p {
-    font-size: 16px;
+nav li {
+    margin: 0 20px;
 }
 
-/* Recipe ingredients and steps styles */
-.recipe-details ul,
-.recipe-details ol {
-    padding: 0 20px;
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 15px 30px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.recipe-details ul li,
-.recipe-details ol li {
-    margin-bottom: 5px;
+nav a:hover {
+    background-color: #fff;
+    color: #FF0000;
+}
+
+/* Set the grid to red */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+
+/* Other styles here... */
+
+/* Blue body */
+body {
+    color: blue;
+}
+
+/* Define styles for the container and boxes */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.box {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add responsive design for mobile */
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .box {
+        padding: 15px;
+    }
+}
+
+/* Recipe and Travel navigation bar styles */
+.recipe-nav ul,
+.travel-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #FF0000;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.recipe-nav ul li,
+.travel-nav ul li {
+    margin: 0 20px;
+}
+
+.recipe-nav ul a,
+.travel-nav ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.recipe-nav ul a:hover,
+.travel-nav ul a:hover {
+    background-color: #fff;
+    color: #FF0000;
 }
 
 /* Mobile-responsive styles */
 @media screen and (max-width: 768px) {
-    nav ul {
+    nav ul,
+    .recipe-nav ul,
+    .travel-nav ul {
         flex-direction: column;
     }
 
-    nav ul li {
+    nav ul li,
+    .recipe-nav ul li,
+    .travel-nav ul li {
         padding: 10px 0;
         text-align: center;
     }
@@ -175,6 +237,10 @@ body {
         padding: 0 10px;
     }
 }
+
+
+
+
 
 
 
