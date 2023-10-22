@@ -2,12 +2,12 @@
 header {
     background-color: #FF0000; /* Red background color */
     color: black; /* Text color */
-    padding: 20px 0; /* Increase the padding for the header */
+    padding: 10px 0; /* Reduce the padding for the header */
 }
 
 header h1 {
     margin: 0; /* Remove any default margin */
-    font-size: 24px; /* Increase the font size for the header text */
+    font-size: 24px; /* Font size for the header text */
 }
 
 nav ul {
@@ -24,10 +24,10 @@ nav a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
-    font-size: 16px; /* Adjust font size as needed */
-    padding: 10px 20px; /* Adjust padding for links */
+    font-size: 16px; /* Font size for the links */
+    padding: 10px 20px; /* Padding for links */
     border: 2px solid #fff; /* Add a border to links */
-    border-radius: 25px; /* Add rounded corners */
+    border-radius: 25px; /* Rounded corners for links */
     transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
 }
 
@@ -36,16 +36,16 @@ nav a:hover {
     color: #FF0000; /* Change text color on hover */
 }
 
-/* Set the grid to pink */
+/* Set the grid to red */
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    background-color: pink;
+    background-color: red; /* Background color for the grid */
 }
 
 /* Set a solid font size for mobile users */
 body {
-    font-size: 16px; /* Adjust as needed */
+    font-size: 16px; /* Font size for body text */
 }
 
 /* Include reduced motion */
@@ -81,4 +81,5 @@ body {
 body {
     color: blue;
 }
+
 
