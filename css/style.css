@@ -7,6 +7,12 @@ header {
     text-align: center;
     border-bottom: 2px solid #fff;
 }
+/* Hide the "Skip to Main Content" link for mobile */
+@media (max-width: 768px) {
+    .skip-to-main {
+        display: none;
+    }
+}
 
 h1 {
     font-size: 2.5em;
