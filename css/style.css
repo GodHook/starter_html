@@ -2,12 +2,7 @@
 header {
     background-color: #FF0000; /* Red background color for the header */
     color: black; /* Text color for the header text */
-    padding: 50px 0; /* Increase the padding to make the header bar slightly bigger */
-}
-
-header h1 {
-    margin: 0; /* Remove any default margin */
-    font-size: 24px; /* Font size for the header text */
+    padding: 30px 0; /* Padding for the header */
 }
 
 nav ul {
@@ -24,8 +19,8 @@ nav a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
-    font-size: 24px; /* Font size for the links */
-    padding: 10px 20px; /* Padding for links */
+    font-size: 20px; /* Increase the font size to make the boxes bigger */
+    padding: 20px 40px; /* Increase the padding for the links (adjust as needed) */
     border: 2px solid #fff; /* Add a border to links */
     border-radius: 25px; /* Rounded corners for links */
     transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
