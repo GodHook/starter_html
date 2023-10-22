@@ -7,9 +7,10 @@ header {
     text-align: center;
     border-bottom: 2px solid #fff;
 }
-/* Hide the "Skip to Main Content" link for mobile */
+
+/* Remove the "Skip to Main Content" link for mobile */
 @media (max-width: 768px) {
-    .skip-to-main {
+    .skip-to-main-content {
         display: none;
     }
 }
@@ -71,9 +72,10 @@ body {
 .box {
     background-color: #fff;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid black; /* Changed to black border */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: bold; /* Added bold text */
 }
 
 /* Responsive design for mobile */
@@ -160,6 +162,7 @@ body {
         padding: 0 10px;
     }
 }
+
 
 
 
