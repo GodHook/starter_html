@@ -1,91 +1,5 @@
-/* Style the navigation bar */
-header {
-    background-color: #FF0000;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-    border-bottom: 2px solid #fff; /* Add a border at the bottom */
-}
 
-h1 {
-    font-size: 2.5em;
-    font-family: 'Your Font Here', sans-serif; /* Choose a suitable font */
-    margin: 10px 0; /* Add margin for spacing */
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-nav li {
-    margin: 0 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    font-size: 20px;
-    padding: 15px 30px;
-    border: 2px solid #fff;
-    border-radius: 25px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-nav a:hover {
-    background-color: #fff;
-    color: #FF0000;
-}
-
-/* Set the grid to red */
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    gap: 20px; /* Add some gap between grid items */
-}
-
-/* Other styles here... */
-
-/* Blue body */
-body {
-    color: blue;
-}
-body {
-    background-color: #ccc; /* Use the shade of gray you prefer, #ccc is a light gray */
-    color: blue;
-}
-
-/* Define styles for the container and boxes */
-.container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
-}
-
-.box {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Add responsive design for mobile */
-@media (max-width: 600px) {
-    .container {
-        grid-template-columns: 1fr;
-    }
-
-    .box {
-        padding: 15px;
-    }
-}
-
-/* Other styles... */
-/* Navigation bar styles for Recipes and Travel */
+/* Style the navigation bar for both Recipes and Travel */
 header {
     background-color: #FF0000;
     color: white;
@@ -100,6 +14,7 @@ h1 {
     margin: 10px 0;
 }
 
+/* Common navigation bar styles */
 nav ul {
     list-style: none;
     display: flex;
@@ -133,14 +48,13 @@ nav a:hover {
     gap: 20px;
 }
 
-/* Other styles here... */
-
-/* Blue body */
+/* Body style */
 body {
+    background-color: #ccc;
     color: blue;
 }
 
-/* Define styles for the container and boxes */
+/* Container and box styles */
 .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -156,7 +70,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Add responsive design for mobile */
+/* Responsive design for mobile */
 @media (max-width: 600px) {
     .container {
         grid-template-columns: 1fr;
@@ -167,7 +81,7 @@ body {
     }
 }
 
-/* Recipe and Travel navigation bar styles */
+/* Navigation bar styles specific to Recipes and Travel */
 .recipe-nav ul,
 .travel-nav ul {
     list-style: none;
