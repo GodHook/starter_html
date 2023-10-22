@@ -53,24 +53,36 @@ body {
     color: blue;
 }
 
-/* Responsive Design */
+
+/* Define styles for the container and boxes */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.box {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Add responsive design for mobile */
 @media (max-width: 600px) {
-    header {
-        padding: 15px 0; /* Adjust padding for mobile view */
+    .container {
+        grid-template-columns: 1fr;
     }
-    
-    h1 {
-        font-size: 2em; /* Slightly smaller font for mobile view */
-    }
-    
-    nav li {
-        margin: 0 10px; /* Reduce spacing for mobile view */
-    }
-    
-    nav a {
-        font-size: 16px; /* Smaller font for mobile view */
+
+    .box {
+        padding: 15px;
     }
 }
+
+/* Other styles... */
+
 
 
 
