@@ -2,11 +2,12 @@
 header {
     background-color: #FF0000; /* Red background color */
     color: black; /* Text color */
-    padding: 10px 0; /* Padding as needed */
+    padding: 20px 0; /* Increase the padding for the header */
 }
 
 header h1 {
     margin: 0; /* Remove any default margin */
+    font-size: 24px; /* Increase the font size for the header text */
 }
 
 nav ul {
@@ -34,8 +35,6 @@ nav a:hover {
     background-color: #fff; /* Change background on hover */
     color: #FF0000; /* Change text color on hover */
 }
-
-
 
 /* Set the grid to red */
 .grid-container {
@@ -78,19 +77,8 @@ body {
     }
 }
 
-
-
-
-
-/*blue body*/
-body{
+/* Blue body */
+body {
     color: blue;
-    
 }
 
-
-
-body{
-    color: blue;
-    
-}
