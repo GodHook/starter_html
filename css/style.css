@@ -1,8 +1,8 @@
 /* Style the navigation bar */
 header {
     background-color: #FF0000; /* Red background color for the header */
-    color: black; /* Text color */
-    padding: 20px 0; /* Padding as needed */
+    color: black; /* Text color for the header text */
+    padding: 30px 0; /* Increase the padding to make the header bar slightly bigger */
 }
 
 header h1 {
@@ -17,7 +17,7 @@ nav ul {
 }
 
 nav li {
-    margin: 0 50px;
+    margin: 0 20px;
 }
 
 nav a {
