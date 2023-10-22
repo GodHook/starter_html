@@ -52,7 +52,10 @@ nav a:hover {
 body {
     color: blue;
 }
-
+body {
+    background-color: #ccc; /* Use the shade of gray you prefer, #ccc is a light gray */
+    color: blue;
+}
 
 /* Define styles for the container and boxes */
 .container {
