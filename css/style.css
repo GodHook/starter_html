@@ -1,17 +1,16 @@
 /* Style the navigation bar */
 header {
-    background-color: #FF0000; /* Red background color for the header */
-    color: black; /* Text color for the header text */
-    padding: 40px 0; /* Increase the padding to make the header bar larger */
+    background-color: #FF0000;
+    color: white;
+    padding: 20px 0;
     text-align: center;
+    border-bottom: 2px solid #fff; /* Add a border at the bottom */
 }
+
 h1 {
-    font-size: 2.5em; /* Font size for the header text */
-    color: #fff; /* Text color for the header text */
-}
-header h1 {
-    margin: 0; /* Remove any default margin */
-    font-size: 24px; /* Font size for the header text */
+    font-size: 2.5em;
+    font-family: 'Your Font Here', sans-serif; /* Choose a suitable font */
+    margin: 10px 0; /* Add margin for spacing */
 }
 
 nav ul {
@@ -28,62 +27,51 @@ nav a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
-    font-size: 20px; /* Increase the font size for the links */
-    padding: 15px 30px; /* Increase the padding for the links */
-    border: 2px solid #fff; /* Add a border to links */
-    border-radius: 25px; /* Rounded corners for links */
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+    font-size: 20px;
+    padding: 15px 30px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 nav a:hover {
-    background-color: #fff; /* Change background on hover */
-    color: #FF0000; /* Change text color on hover */
+    background-color: #fff;
+    color: #FF0000;
 }
 
 /* Set the grid to red */
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
+    gap: 20px; /* Add some gap between grid items */
 }
 
-/* Set a solid font size for mobile users */
-body {
-    font-size: 16px; /* Adjust as needed */
-}
-
-/* Include reduced motion */
-@media (prefers-reduced-motion: reduce) {
-    *, ::before, ::after {
-        animation-delay: -1ms !important;
-        animation-duration: 1ms !important;
-        animation-iteration-count: 1 !important;
-        background-attachment: initial !important;
-        scroll-behavior: auto !important;
-        transition-duration: 0s !important;
-        transition-delay: 0s !important;
-    }
-}
-
-/* Mobile view: one container with two columns */
-@media (max-width: 600px) {
-    .container {
-        display: grid;
-        grid-template-columns: auto auto;
-    }
-}
-
-/* Larger views: one-column grid on any container that will later need two columns */
-@media (min-width: 601px) {
-    .container {
-        display: grid;
-        grid-template-columns: auto;
-    }
-}
+/* Other styles here... */
 
 /* Blue body */
 body {
     color: blue;
 }
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    header {
+        padding: 15px 0; /* Adjust padding for mobile view */
+    }
+    
+    h1 {
+        font-size: 2em; /* Slightly smaller font for mobile view */
+    }
+    
+    nav li {
+        margin: 0 10px; /* Reduce spacing for mobile view */
+    }
+    
+    nav a {
+        font-size: 16px; /* Smaller font for mobile view */
+    }
+}
+
 
 
 
