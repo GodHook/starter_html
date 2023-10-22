@@ -3,8 +3,12 @@ header {
     background-color: #FF0000; /* Red background color for the header */
     color: black; /* Text color for the header text */
     padding: 40px 0; /* Increase the padding to make the header bar larger */
+    text-align: center;
 }
-
+h1 {
+    font-size: 2.5em; /* Font size for the header text */
+    color: #fff; /* Text color for the header text */
+}
 header h1 {
     margin: 0; /* Remove any default margin */
     font-size: 24px; /* Font size for the header text */
