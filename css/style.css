@@ -18,10 +18,16 @@ header {
 /* Style for the current page link */
 .current-page {
     background-color: #007bff; /* Blue background color */
-    color: #fff; /* White text color */
+    color: #fff; /*  stack over White text color */
     font-weight: bold; /* Bold text */
 }
 
+@media (prefers-reduced-motion: reduce) {
+    /* stack over flow style for users with reduced motion preferences */
+    nav a {
+        transition: none; /* Disable transitions for reduced-motion users */
+    }
+}
 h1 {
     font-size: 2.5em;
     font-family: 'Your Font Here', sans-serif;
