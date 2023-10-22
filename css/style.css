@@ -1,3 +1,27 @@
+/* Style the navigation bar */
+header {
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+nav ul {
+    list-style: none; /* Remove list bullets */
+    display: flex; /* Display links horizontally */
+    justify-content: center; /* Center-align links */
+}
+
+nav li {
+    margin: 0 20px; /* Add spacing between links */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color for links */
+    font-weight: bold; /* Bold text style */
+}
+
+
 body{
     color: blue;
     
