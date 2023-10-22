@@ -83,7 +83,41 @@ body {
 
 /* Other styles... */
 
+.recipe {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 20px;
+}
 
+.recipe-image {
+    max-width: 100%;
+    text-align: center;
+}
+
+.recipe-details {
+    text-align: left;
+}
+
+.recipe img {
+    max-width: 100%;
+}
+
+.recipe h2 {
+    font-size: 24px;
+}
+
+.recipe span {
+    font-style: italic;
+}
+
+.recipe ul, .recipe ol {
+    padding-left: 20px;
+}
+
+.recipe ul li, .recipe ol li {
+    list-style-type: disc;
+    margin-bottom: 10px;
+}
 
 
 
