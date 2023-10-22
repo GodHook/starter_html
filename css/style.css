@@ -2,7 +2,7 @@
 header {
     background-color: #FF0000; /* Red background color */
     color: black; /* Text color */
-    padding: 20px 0; /* Increase the padding for the header */
+    padding: 10px 0; /* Increase the padding for the header */
 }
 
 header h1 {
