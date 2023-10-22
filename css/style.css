@@ -1,8 +1,8 @@
 /* Style the navigation bar */
 header {
-    background-color: #FF0000; /* Red background color */
+    background-color: #FF0000; /* Red background color for the header */
     color: black; /* Text color */
-    padding: 10px 0; /* Reduce the padding for the header */
+    padding: 10px 0; /* Padding as needed */
 }
 
 header h1 {
@@ -40,12 +40,11 @@ nav a:hover {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    background-color: red; /* Background color for the grid */
 }
 
 /* Set a solid font size for mobile users */
 body {
-    font-size: 16px; /* Font size for body text */
+    font-size: 16px; /* Adjust as needed */
 }
 
 /* Include reduced motion */
@@ -81,5 +80,6 @@ body {
 body {
     color: blue;
 }
+
 
 
