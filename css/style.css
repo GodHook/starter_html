@@ -8,6 +8,10 @@ header {
     border-bottom: 2px solid #fff;
 }
 
+nav  {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
 /* Remove the "Skip to Main Content" link for mobile */
 @media (max-width: 768px) {
     .skip-to-main-content {
